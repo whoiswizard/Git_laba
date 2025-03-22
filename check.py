@@ -6,3 +6,16 @@ def scroll():
      
         
 scroll()
+
+user_name = "Victor"
+Pass = "dima"
+
+def new_ficha(user_name, Pass):
+    if user_name == "Victor" and Pass =="dima":
+        print("User acess")
+    else: 
+        print("reject")
+        
+        
+new_ficha("Victor", "dma")
+
